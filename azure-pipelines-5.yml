@@ -24,4 +24,4 @@ steps:
   inputs:
     SonarCloud: 'sonar'
     organization: 'manasamaa'
-    scannerMode: 'MSBuild'
+    scannerMode: 'Other'
