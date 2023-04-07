@@ -21,7 +21,7 @@ steps:
     sonarQubeRunAnalysis: false
 - task: SnykSecurityScan@1
   inputs:
-    serviceConnectionEndpoint: 'snyk'
+    serviceConnectionEndpoint: 'maa'
     testType: 'app'
     monitorWhen: 'always'
     failOnIssues: false
