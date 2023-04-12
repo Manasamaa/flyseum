@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: virtual machine
+pool: ubantu
 steps:
 - task: Maven@4
   inputs:
